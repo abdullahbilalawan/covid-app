@@ -2,8 +2,15 @@
   margin: 0px;
 }
 body{
-  background-color: rgb(231, 220, 220);
+  background-color: rgb(255, 255, 255);
 }
+
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
 
 .app__header{
   display: flex;
@@ -15,7 +22,16 @@ body{
 
 }
 
+.app__left{
+  flex: 0.9;
+}
 .app__stats{
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 998px){
+  .app{
+    flex-direction: column;
+  }
 }
