@@ -1,0 +1,14 @@
+.Table{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 10 px;
+    background-color: rgb(255, 255, 255)
+}
+
+.Table tr:nth-of-type(even){
+    background-color: lightpink;
+}
+.Table tr{
+    display: flex;
+    justify-content: space-between;
+}
