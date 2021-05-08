@@ -11,6 +11,14 @@ body{
   padding: 20px;
 }
 
+.app__right{
+  height: 1000px;
+  padding: 2rem;
+  border-radius:  80px;
+  margin-top: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+
+}
 
 .app__header{
   display: flex;
@@ -21,13 +29,28 @@ body{
 
 
 }
+.app__dropdown{
+  width: 400px;
+  background-color: gainsboro;
+}
+
+.graph{
+  height:200px;
+  width: 1000px;
+  padding-top: 50px;
+}
 
 .app__left{
-  flex: 0.9;
+  flex: 0.8;
+  padding: 1rem;
+  border-radius:  12px;
+  margin-top: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
 .app__stats{
   display: flex;
   justify-content: space-between;
+ 
 }
 
 @media (max-width: 998px){
